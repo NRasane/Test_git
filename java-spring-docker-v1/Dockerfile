@@ -1,7 +1,7 @@
-From java:new
+From centos:1.0
 
-ENV JAVA_VERSION 8u31
-ENV BUILD_VERSION b13
+ENV JAVA_VERSION 8u161
+ENV BUILD_VERSION b14
  
 COPY ./target/java-spring-docker.jar /tmp/
 WORKDIR /tmp
